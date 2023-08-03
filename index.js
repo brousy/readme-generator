@@ -40,8 +40,17 @@ const questions = [
         name: 'license',
         message: 'Please select what kind of license you want for your Project?',
         choices:[ "MIT", "Apache 2.0", "GPL", "BSD", "none"]
-    }
-
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Enter usage information: ',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Enter contribution guidelines: ',
+    },
 
 ];
 
