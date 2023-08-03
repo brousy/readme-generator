@@ -38,7 +38,7 @@ ${renderLicenseLink(data.license)}
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+${data.installation}
 
 ## Usage
 
@@ -51,6 +51,8 @@ ${data.credits}
 ## License
 
 ${renderLicenseBadge(data.license)}
+
+## Questions
 
 If you have any further questions and would like to contact me, please reach out to:
 ${data.email} . You can view my work at: ${data.Github}

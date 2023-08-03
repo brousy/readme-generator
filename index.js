@@ -20,20 +20,24 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is your Project Title?',
+        message: 'What is your Project Title? ',
 
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is your description of the Project?',
+        message: 'What is your description of the Project? ',
     },
     {
         type:'input',
         name:'installation',
-        message:'What command should be run to install the dependencies?',
-        default:'npm i',
+        message:'Enter installation instructions: ',
 
+    },
+    {
+        type:'input',
+        name:'test',
+        message:'Enter test instructions: '
     },
     {
         type: 'list',
