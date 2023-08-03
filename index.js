@@ -13,14 +13,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'password',
+        name: 'email',
         message: 'What is your Git Hub email address?',
 
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is your Project title?',
+        message: 'What is your Project Title?',
 
     },
     {
@@ -40,8 +40,7 @@ const questions = [
         name: 'license',
         message: 'Please select what kind of license you want for your Project?',
         choices:[ "MIT", "Apache 2.0", "GPL", "BSD", "none"]
-    },
-    {}
+    }
 
 
 ];
@@ -54,8 +53,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(
-        (data) => {
-            writeToFile('README.md', generateMarkdown({...data}) )
+        (dataInfo) => {
+            writeToFile('README.md', generateMarkdown({...dataInfo}) )
         }
     )
 }
