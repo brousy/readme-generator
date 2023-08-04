@@ -3,6 +3,7 @@
 ## VIDEO WALKTHROUGH
 
 <!-- LINK TO BE ADDED -->
+[Walkthrough](https://youtu.be/1ooRPX9EqAQ)
 
 
 ## TASK
